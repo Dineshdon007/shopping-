@@ -59,7 +59,7 @@ public class ProductController {
 				
 		productDAO.addProduct(product);
 		
-		String imagePath = "D:\\Hergin\\project\\frontend\\src\\main\\webapp\\resources\\images\\";
+		String imagePath = "D:\\dinesh\\project\\frontend\\src\\main\\webapp\\resources\\images\\";
 		imagePath=imagePath+String.valueOf(product.getProductID())+".jpg";
 		
 		File myfile = new File(imagePath);
